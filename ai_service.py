@@ -152,7 +152,7 @@ def build_post_caption(ai_description: str, bet_code: str, promo_code: str,
     """بناء الكابشن الكامل لبوست جديد"""
 
     # روابط — تتضاف فقط إذا كانت محددة
-    links = [f'🔗 <a href="{reg_link}">رابط خاص بالمغاربة</a>']
+    links = [f'🔗 <a href="{reg_link}">رابط التسجيل 💪</a>']
 
     if android_link:
         links.append(f'🔗 <a href="{android_link}">رابط التطبيق للأندرويد من هنا</a>')
